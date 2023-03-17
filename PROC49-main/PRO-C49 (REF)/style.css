@@ -1,0 +1,70 @@
+h1 {
+    color: indigo;
+    padding: 20px;
+    font-size: 50px;
+  }
+
+  h2 {
+    color: blue;
+  }
+
+  h3 {
+    color: crimson;
+  }
+  *{
+    border:solid;
+  }
+body{
+/*background-color: rgb(128,128, 128);*/
+background-color: #1E90FF;
+}
+  .Cabeçario{
+    background-color: aquamarine;
+    display: flex;
+    justify-content: space-between;
+}
+.Jogos{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.Rodapé{
+    display: flex;
+    justify-content: flex-end;
+}
+h2,p{
+    text-align: center;
+}
+a:link{
+color:rgb(153, 135, 32);
+}
+a:visited{
+  color: rgb(122, 88, 2);
+}
+
+.Menu{
+  margin-right: 30px;
+  margin-top:35px;
+}
+.Menu a{
+  margin-right: 30px;
+  margin-left: 30px;
+}
+
+.Games{
+  position: relative;
+}
+.Games p{
+position: absolute;
+top:50%;
+left:50%;
+transform: translate(-50%,-50%);
+opacity: 0;
+}
+.Games:hover p{
+opacity: 1;
+}
+.Games:hover img{
+  opacity: 0.35;
+}
